@@ -764,7 +764,8 @@ background-color: hsla(0, 0%, 80%, 0.1);
 #sobre{
     width: 100vw;
     height: 30vh;
-    background-image: url ("./img/ano.png"), linear-gradient (rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5)),
+    url("./img/ano.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
