@@ -376,7 +376,7 @@ p > .msm{
 #cargos{
     width: 100vw;
     height: 100vh;
-    background-image: url("../img/imag.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url("./img/imag.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -592,7 +592,7 @@ body > #regras{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    background-image: url("/img/mes.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
+    background-image:  url("./img/mes.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -764,7 +764,7 @@ background-color: hsla(0, 0%, 80%, 0.1);
 #sobre{
     width: 100vw;
     height: 30vh;
-    background-image:    url("/img/ano.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5));
+    background-image: url("./img/ano.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
@@ -1022,6 +1022,19 @@ background-color: hsla(0, 0%, 10%, 0.1);
 }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:1024px) and (max-height:600px){
 .leite > .mimica{
 
@@ -1123,17 +1136,29 @@ background-color: hsla(0, 0%, 80%, 0.1);
     padding: 2%;
 }
 
-
-
 }
 
-@media screen and (max-width:430px) and (max-height:932px){
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:430px) and (max-height:932px){
 
     #inicio{
     width: 100vw;
     height: 100vh;
-    background-image: url("/img/min.jpg"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5));
+    background-image: url("./img/min.jpg"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1261,6 +1286,16 @@ background-color: hsla(0, 0%, 80%, 0.1);
 
 }
 
+.ini > .amig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-size: 130%;
+    height: 100%;
+    width: 100%;
+}
+
  .dd{
     display:flex;
     position: fixed;
@@ -1288,6 +1323,7 @@ background-color: hsla(0, 0%, 80%, 0.1);
     display: flex;
     height: 100%;
     width: 50%;
+    right: 8%;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -1300,8 +1336,8 @@ background-color: hsla(0, 0%, 80%, 0.1);
     display: flex;
     justify-content: center;
     align-items: center;
- 
-    width: 80%;
+    left: 0;
+    width: 90%;
     height: 70%;
     border-radius: 10px;
     background-size: 5%;
@@ -1309,6 +1345,17 @@ background-color: hsla(0, 0%, 80%, 0.1);
 box-shadow: 0px 0px 50px 10px black;
 background-color: hsla(0, 0%, 80%, 0.1);
 
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    gap: 6%;
 }
 .ar > .p{
     width: 100%;
@@ -1518,10 +1565,13 @@ background-color: hsla(0, 0%, 10%, 0.1);
 
 
 
+
+
+
 #cargos{
     width: 100vw;
     height: 100vh;
-    background-image: url("/img/imag.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5));
+    background-image: url("./img/imag.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1718,12 +1768,20 @@ background-color: hsla(0, 0%, 10%, 0.1);
 
 
 
+
+
+
+
+
+
+
+
 body > #regras{
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: row;
-    background-image: url("/img/mes.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url("./img/mes.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1887,10 +1945,14 @@ background-color: hsla(0, 0%, 80%, 0.1);
 
 
 
+
+
+
+
 #sobre{
     width: 100vw;
     height: 15vh;
-    background-image: url("/img/ano.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5));
+    background-image: url("./img/ano.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
