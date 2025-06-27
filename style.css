@@ -3469,7 +3469,7 @@ background-color: hsla(0, 0%, 80%, 0.1);
     
 }
 .flec > .imagem{
-    width: 10%;
+    width: 8%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -3570,8 +3570,7 @@ background-color: hsla(0, 0%, 10%, 0.1);
 .imagem > .is{
     display: flex;
     position: relative;
-    right: 220%;
-    width: 330%;
+    width: 10%;
     height: 100%;
     border-radius: 30px;
 box-shadow: 0px 0px 50px 5px black;
@@ -4159,13 +4158,13 @@ padding-right: 2%;
     align-items: center;
 }
 .mg > .tiringa{
-    width: 45%;
-    height: 70%;
+    width: 52%;
+    height: 80%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2%;
+    gap: 5%;
 }
 
 .tiringa > .va{
@@ -4205,7 +4204,8 @@ background-color: hsla(0, 0%, 10%, 0.1);
 .zon > .maiik{
     font-family: var(--font2);
     display: flex;
-
+    position: relative;
+    top: -2%;
     color: white;
   font-family: "Poetsen One", sans-serif;
   font-weight: 400%;
@@ -4214,7 +4214,7 @@ background-color: hsla(0, 0%, 10%, 0.1);
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
-  font-size: 150%;
+  font-size: 170%;
 }
 
 }
