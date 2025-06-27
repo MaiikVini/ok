@@ -377,7 +377,7 @@ p > .msm{
 #cargos{
     width: 100vw;
     height: 100vh;
-    background-image: url("./img/imag.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url("/img/imag.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -593,7 +593,7 @@ body > #regras{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    background-image: url("./img/mes.png"),linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url("/img/mes.png"),linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -766,7 +766,7 @@ background-color: hsla(0, 0%, 80%, 0.1);
     width: 100vw;
     height: 30vh;
     background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5)),
-    url("./img/ano.png");
+    url("/img/ano.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
@@ -1136,7 +1136,7 @@ background-color: hsla(0, 0%, 80%, 0.1);
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5)),
-    url("./img/min.jpg");
+    url("/img/min.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1524,7 +1524,7 @@ background-color: hsla(0, 0%, 10%, 0.1);
 #cargos{
     width: 100vw;
     height: 100vh;
-    background-image: url("./img/imag.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5)),;
+    background-image: url("/img/imag.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5)),;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1726,7 +1726,7 @@ body > #regras{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    background-image: url("./img/mes.png"),linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url("/img/mes.png"),linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1894,7 +1894,7 @@ background-color: hsla(0, 0%, 80%, 0.1);
     width: 100vw;
     height: 15vh;
     background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5)),
-    url("./img/ano.png");
+    url("/img/ano.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
