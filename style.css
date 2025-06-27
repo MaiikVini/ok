@@ -27,7 +27,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5)),
-    url("/img/ano.png");
+    url("/img/min.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -373,10 +373,11 @@ p > .msm{
 
 
 
+
 #cargos{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5)),url("/img/imag.png");
+    background-image: url("./img/imag.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -592,7 +593,7 @@ body > #regras{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5)),url("/img/mes.png");
+    background-image: url("./img/mes.png"),linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -764,7 +765,8 @@ background-color: hsla(0, 0%, 80%, 0.1);
 #sobre{
     width: 100vw;
     height: 30vh;
-    background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5)),url("/img/amor.png");
+    background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5)),
+    url("./img/ano.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
@@ -882,6 +884,40 @@ background-color: hsla(0, 0%, 10%, 0.1);
   font-weight: normal;
   font-style: normal;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:1280px) and (max-height:800px){
@@ -1095,6 +1131,103 @@ background-color: hsla(0, 0%, 80%, 0.1);
 
 @media screen and (max-width:430px) and (max-height:932px){
 
+
+    #inicio{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5)),
+    url("./img/min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.pebli,.pato{ 
+    top: 0%;
+    z-index: 8;
+}
+.vv{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(1px);
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 8%;
+}
+
+.vv > .manicomio{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+     border-radius: 20px;
+background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 0px 50px 10px black;
+
+}
+ .dd{
+    display:flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: left;
+    width: 100vw;
+    height: 10vh;
+    padding-top: 1.5%;
+    align-items: flex-start;
+    z-index: 4;
+}
+.dd > .abcd{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+
+
+}
+
+
+.abcd > .ini{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    right: 4%;
+    flex-direction: column;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+box-shadow: 0px 0px 50px 10px black;
+background-color: hsla(0, 0%, 80%, 0.1);
+
+}
+.ini > .amig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-size: 270%;
+    height: 100%;
+    width: 100%;
+}
+.manicomio > .mento{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+
+
     .vv{
     display: flex;
     width: 100vw;
@@ -1210,7 +1343,29 @@ background-color: hsla(0, 0%, 80%, 0.1);
     flex-direction: column;
     height: 50%;
     width: 100%;
+    gap: 2%;
 }
+
+.fleca > .pinta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 0%;
+
+}
+
+.pinta > .pintamos{
+    display: flex;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 93%;
+    height: 41%;
+
+
+}
+
 .mento > .flec{
     display: flex;
     flex-direction: column;
@@ -1220,20 +1375,123 @@ background-color: hsla(0, 0%, 80%, 0.1);
     width: 100%;
 }
 .flec > .pintar{
-    width: 25%;
-    height: 100%;
+    width: 100%;
+    height: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 .flec > .imagem{
-    width: 10%;
-    height: 100%;
+    width: 100%;
+    height: 65%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
+.flec >  .eaze{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+}
+
+.eaze > .pl{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 5px black;
+background-color: hsla(0, 0%, 10%, 0.1);
+
+}
+
+.pintar > .pintor{    
+    display: flex;
+    position: relative;
+    left: 0%;
+    top: -9%;
+    width: 85%;
+    height: 75%;
+    border-radius: 60px;
+
+
+}
+
+.imagem > .is{
+    display: flex;
+    position: relative;
+    right: 0%;
+    width: 45%;
+    height: 85%;
+    border-radius: 30px;
+box-shadow: 0px 0px 50px 5px black;
+background-color: hsla(0, 0%, 10%, 0.1);
+
+}
+
+
+
+.fleca > .pinta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+
+}
+
+.pinta > .pintamos{
+    display: flex;
+    left: 0;
+    width: 93%;
+    height: 41%;
+}
+
+.fleca > .ppi{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.ppi > .isso{
+    display: flex;
+    position: relative;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 95%;
+    border-radius: 30px;
+box-shadow: 0px 0px 50px 5px black;
+background-color: hsla(0, 0%, 10%, 0.1);
+
+}
+
+.fleca > .abobra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 47%;
+
+}
+
+.leite > .mimica{
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-size: 130%;
+}
 
 .abobra > .leite{
         display: flex;
@@ -1249,54 +1507,543 @@ background-color: hsla(0, 0%, 80%, 0.1);
 background-color: hsla(0, 0%, 10%, 0.1);
 }
 
-.fleca > .pinta{
+.pl > .ai{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    color: azure;
+    font-size: 130%;
+}
+
+
+
+
+
+
+#cargos{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./img/imag.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5)),;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#cargos > .pronto{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 7%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 18%;
+    justify-content: center;
+    
+
+
+}
+.pronto > .gestor{
+    display: flex;
+    position: relative;
+
+    width: 100%;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+
+}
+.gestor > .caber{
+    display: flex;
+    width: 45%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+box-shadow: 0px 0px 50px 10px black;
+background-color: hsla(0, 0%, 80%, 0.1);
+
+}
+.caber > .dis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 140%;
+}
+
+ .pre-btn,
+.nxt-btn{
+    width: 11vw;
+    top: 100%;
+    color: aliceblue;
+     
+}
+
+.pebli,.tadin, .pato, .patrao {
+    border: none;
+    width: 10vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #161515 100%);
+    cursor: pointer;
+    z-index: 8;
+}
+
+.pre-btn, .beat, .pebli,.tadin {
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.nxt-btn, .ntb, .pato, .patrao{
+    right: 0;
+}
+
+.pronto > .pre-btn img,
+.nxt-btn img {
+    opacity: 0.2;
+}
+
+.pronto > .pre-btn:hover img,
+.nxt-btn:hover img {
+    opacity: 1.5;
+}
+.kia{
+    height: 7%;
+    width: 100%;
+}
+
+.pronto > .funda{
+    display: flex;
+    flex-direction: row;
+        justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+
+
+}
+
+
+.funda > .spana{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    flex-direction: row;
+    transition: 0.5s;
+    gap: 4%;
+    padding: 10%;
+    border-radius: 15px;
+}   
+.spana, html::-webkit-scrollbar {
+    display: none;
+  }
+.spana > .marg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 50px 5px black;
+background-color: hsla(0, 0%, 10%, 0.1);
+    backdrop-filter: blur(5px);
+
+}
+
+
+.marg > .definer{
+    display: flex;
+
+
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 83%;
+}
+
+.definer > .fotin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.fotin > .ima{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.marg > .antares {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 17%;
+    width: 100%;
+}
+
+.antares >  .tex{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+ 
+
+}
+.antares >  .tast{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+}
+
+
+
+body > #regras{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-image: url("./img/mes.png"),linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.tadin ,.patrao{
+
+    top: 200%;
+
+    color: aliceblue;
+  
+}
+#regras > .neymar{
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 8%;
+    gap: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.neymar > .ia{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+     border-radius: 20px;
+         background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
+             backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 50px 10px black;
+}
+
+.ia > .epe{
     width: 100%;
     height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.epe > .mac{
+    width: 45%;
+    height: 18%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+
 
 }
-.fleca > .ppi{
+.mac > .batroz{
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
-    height: 27%;
+    height: 100%;
+    font-size: 230%;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+box-shadow: 0px 0px 50px 10px black;
+background-color: hsla(0, 0%, 80%, 0.1);
+padding: 2%;
+    border-radius: 20px;
 }
-.pinta > .pintamos{
-    display: flex;
-
-    width: 93%;
-    height: 41%;
-
-
+.epe >.maxi{
+    width: 100%;
+    height: 55%;  
+    
+     display: flex;
+     justify-content: center;
 }
-
-.ppi > .isso{
+.maxi > .pamn{
+    width: 60%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10%;
-    height: 10%;
-    border-radius: 30px;
+    padding: 2%;
+        overflow-x: hidden;
+box-shadow: 0px 0px 50px 10px black;
+background-color: hsla(0, 0%, 80%, 0.1);
+    border-radius: 20px;
+}
+.pamn > .lali{
+    width: 90%;
+    height: 90%;
+    display: flex;
+}
+
+.ia > .af{
+    display: flex;
+    width:100%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 2%;
+}
+.af > .cadabra{
+    width: 100%;
+    height: 14%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 2%;
+    align-items: center;
+    gap: 3%;
+    
+}
+.cadabra > .papel{
+    display: flex;
+    width: 89%;
+    height: 79%;
+    
+}
+.papel > .after{
+    display: flex;
+
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;
+    font-size: 140%;
+    justify-content: center;
+    align-items: center;
+box-shadow: 0px 0px 50px 10px black;
+background-color: hsla(0, 0%, 80%, 0.1);
+    border-radius: 20px;
+    padding: 2%;
+}
+
+
+.cadabra > .circso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 11%;
+    height: 75%;
+    padding-left: 1%;
+    padding-right: 1%;
+box-shadow: 0px 0px 50px 10px black;
+background-color: hsla(0, 0%, 80%, 0.1);
+    border-radius: 13px;
+}
+.circso > .x{
+    display: flex;
+    width: 80%;
+    height: 45%;
+}
+
+
+
+
+
+
+
+#sobre{
+    width: 100vw;
+    height: 15vh;
+    background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5)),
+    url("./img/ano.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+
+}
+.beat,.ntb{
+    top: 300%;
+     color: aliceblue;
+     border: none;
+    width: 10vw;
+    height: 15vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #161515 100%);
+    cursor: pointer;
+    z-index: 8;
+}
+#sobre > .amazon{ 
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 15vh;
+    backdrop-filter: blur(2px);
+}
+.amazon > .mane{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 85%;
+}
+.amazon > .zon{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mane > .social{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social > .t{
+
+    font-size: 250%;
+    backdrop-filter: blur(8px);
+
+
 box-shadow: 0px 0px 50px 5px black;
+background-color: hsla(0, 0%, 10%, 0.1);
+padding-left: 2%;
+padding-right: 2%;
+    border-radius: 30px;
+}
+
+.mane > .mg{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mg > .tiringa{
+    width: 75%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.tiringa > .va{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+
+
+
+box-shadow: 0px 0px 30px 10px black;
+backdrop-filter: blur(8px);
+
+
 background-color: hsla(0, 0%, 10%, 0.1);
 
 
+
 }
-.fleca > .abobra{
+
+.va > .pa{
+    height: 70%;
+    width: 65%;
+    border-radius: 100%;
+
+
+}
+
+.zon > .maiik{
+    font-family: var(--font2);
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height:28%;
+    color: white;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400%;
+  font-style: normal;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
 
 }
 
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
